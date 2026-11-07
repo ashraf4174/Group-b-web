@@ -1,0 +1,41 @@
+body{
+    background-color: lightgreen;
+    font-family: Arial;
+    text-align: center;
+}
+h1{
+     background-color: green;
+    color: white;
+    padding: 25px;
+}
+h2{
+    color: darkgreen;
+}
+p{
+    font-size: 18px;
+}
+nav{
+    background-color: darkgreen;
+    padding: 15px;
+}
+nav a {
+
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a :hover {
+    color: brown;
+}
+.products img {
+    width: 120;
+    height: 100;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.beverage img{
+    width: 100;
+    height: 80;
+    object-fit: contain;
+}
